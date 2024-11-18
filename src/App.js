@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
 import NavBar from './components/NavBar';
 import Splash from './pages/Splash';
-import MainPage from './pages/Mainpage';
+import MainPage from './pages/MainPage';
 import CategoryPage from './pages/CategoryPage';
 import BudgetPredictionPage from './pages/BudgetPredictionPage';
 import SavingsCalculationPage from './pages/SavingsCalculationPage';

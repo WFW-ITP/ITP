@@ -8,7 +8,7 @@ function Calendar() {
 
   return (
     <div className="calendar-container" style={{ padding: '20px' }}>
-      <h2>캘린더</h2>
+      <h2>Main Page</h2>
       <ReactCalendar 
         onChange={setDate}
         value={date}
