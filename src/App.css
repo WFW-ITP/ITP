@@ -1,38 +1,177 @@
-.App {
+/* 전체 페이지 스타일 */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #d6edda;
+}
+
+/* 로고 스타일 */
+#logo {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  z-index: 100;
+}
+
+#logo-img {
+  width: 120px;
+  height: auto;
+}
+
+/* 추천 페이지 스타일 */
+#recommendation-page {
   text-align: center;
+  background-color: white;
+  padding: 40px 50px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 600px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#recommendation-page h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#recommendation-page p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #666;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* 버튼 그룹 스타일 */
+.button-group {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.button {
+  text-align: center;
+  padding: 10px;
+  background-color: #edbdd5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  width: 150px;
+  height: 180px;
+}
+
+.button img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+.button:hover {
+  background-color: #ff4ea1;
+  transform: translateY(-3px);
+}
+
+.button .text {
+  font-size: 17px;
+  margin-top: 10px;
+}
+
+/* App.css */
+.react-calendar {
+  width: 100%;
+  max-width: 900px; /* 캘린더의 최대 너비 설정 */
+  font-size: 1.2rem; /* 폰트 크기 키우기 */
+  margin: 20px auto;
+}
+
+.transactions-container {
+  margin-top: 20px;
+  border: 2px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.transactions-list {
+  margin-top: 10px;
+}
+
+.transaction-entry {
+  margin: 10px 0;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #e8f0fe;
+}
+
+button {
+  margin: 5px;
+}
+
+/* 입금/지출 색상 */
+.color-blue {
+  color: blue;
+}
+
+.color-red {
+  color: red;
+}
+
+/* 팝업 스타일 */
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);  /* 반투명 배경 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.total-info {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  font-size: 16px;
   display: flex;
   flex-direction: column;
+  gap: 10px;
+  padding: 15px;
+  background-color: #f9f9f9; /* 배경색 */
+  border: 2px solid #ccc;    /* 테두리 색 */
+  border-radius: 8px;         /* 모서리 둥글게 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 그림자 효과 */
+}
+
+.total-info div {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+/* 스타일 */
+.input-group {
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 10px; /* 텍스트 필드와 버튼 간의 간격 */
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1 {
+  text-align: center;
 }
