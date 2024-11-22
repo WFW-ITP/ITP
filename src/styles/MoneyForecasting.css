@@ -1,0 +1,89 @@
+title {
+  position: relative;
+  left: 20px; 
+  font-size: 30px; 
+  font-weight: bold;
+  color: #000000;
+}
+
+.backButton {
+  position: relative;
+  top: 10px;
+  left: 10px;
+  font-size: 16px;
+  color: white;
+  background-color: #315135;
+  border: none;
+  border-radius: 5px;
+  width: 60px;
+  height: 35px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s;
+}
+
+.backButton:hover {
+  background-color: #4d6b51;
+}
+
+.dropdown {
+  position: relative;
+  top : 15px;
+  width: 100%;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  border: 2px solid #315135;
+  border-radius: 8px;
+  background: #f9f9f9;
+  background-size: 16px;
+  cursor: pointer;
+}
+
+.dropdown option[value="N"] {
+  color: #999;
+}
+
+.balanceBox {
+  position: relative;
+  top : 40px;
+  left: 8%;
+  width: 80%;
+  padding: 20px;
+  border: 2px solid #203122
+  ;
+  border-radius: 10px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.balanceAmount {
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: blue;
+}
+
+.chartContainer {
+  position: relative;
+  left: 8%;
+  top: 40px;
+  width: 80%;
+  height: 30%;
+  background-color: #315135;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chartContainer h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 10px;
+}
+

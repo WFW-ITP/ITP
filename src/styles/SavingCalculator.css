@@ -1,0 +1,47 @@
+.inputGroup {
+  position: relative;
+  margin: 20px 0;
+}
+
+.inputField {
+  width: 100%;
+  font-size: 24px;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #203122;
+  border-radius: 5px;
+  text-align: center;
+  color:  #7e3e99;
+}
+
+.resultButton {
+  position: relative;
+  font-size: 18px;
+  padding: 10px 20px;
+  color: white;
+  background-color: #315135;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 20px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s;
+}
+
+.resultButton:hover {
+  background-color: #4d6b51;
+}
+
+.output {
+  position: relative;
+  font-size: 16px;
+  color: #333;
+  margin-top: 20px;
+}
+
+.totalAmount {
+  position: relative;
+  font-size: 36px;
+  color:  #7e3e99;
+  font-weight: bold;
+}
