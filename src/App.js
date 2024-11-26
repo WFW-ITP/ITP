@@ -3,7 +3,6 @@ import "./App.css";
 import { BrowserRouter as Router, Routes, Route, Link, useLocation } from "react-router-dom";
 import Splash from "./pages/Splash";
 import One from "./pages/1";
-import Two from "./pages/2";
 import Three from "./pages/3";
 import Four from "./pages/4";
 import Five from "./pages/5";
@@ -62,9 +61,6 @@ function AppContent() {
             <Link to="/one">가계부</Link>
           </li>
           <li onClick={() => setShowCategories(false)}>
-            <Link to="/two">월별 수입/지출 그래프</Link>
-          </li>
-          <li onClick={() => setShowCategories(false)}>
             <Link to="/three">운용 가능한 돈</Link>
           </li>
           <li onClick={() => setShowCategories(false)}>
@@ -90,7 +86,7 @@ function AppContent() {
             />
           }
         />
-        <Route path="/two" element={<Two transactions={transactions} />} />
+      
         <Route path="/three" element={<Three />} />
         <Route path="/four" element={<Four />} />
         <Route path="/five" element={<Five />} />
