@@ -62,7 +62,7 @@ function AppContent() {
             <Link to="/one">가계부</Link>
           </li>
           <li onClick={() => setShowCategories(false)}>
-            <Link to="/two">생활비 예측</Link>
+            <Link to="/two">월별 수입/지출 그래프</Link>
           </li>
           <li onClick={() => setShowCategories(false)}>
             <Link to="/three">운용 가능한 돈</Link>

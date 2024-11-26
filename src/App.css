@@ -215,7 +215,7 @@ h5{
 
 .balanceBox {
   position: relative;
-  top : 40px;
+  top : 20px;
   width: 80%;
   border: 2px solid #7e3e99;
   border-radius: 10px;
@@ -235,7 +235,7 @@ h5{
 
 .chartContainer {
   position: relative;
-  top: 40px;
+  top: 20px;
   width: 80%;
   height: 30%;
   background-color: #ead6ed;
@@ -258,23 +258,27 @@ h5{
 
 .dropdown {
   position: relative;
-  top : 15px;
+  top: 15px;
   width: 80%;
+  max-width: 400px; /* 최대 너비를 추가하여 레이아웃 깨짐 방지 */
   font-size: 18px;
   font-weight: bold;
-  padding: 10px;
+  padding: 12px; /* 패딩을 약간 늘려 사용자 경험 개선 */
   border: 2px solid #7e3e99;
   border-radius: 8px;
   background: #f9f9f9;
   background-size: 16px;
   cursor: pointer;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin: 0 auto; /* 가운데 정렬 */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 약간의 그림자 추가 */
   text-align: center;
+  transition: all 0.3s ease; /* 마우스 오버 시 부드러운 애니메이션 */
 }
 
-.dropdown option[value="N"] {
-  color: #999;
+.dropdown:focus {
+  outline: none; /* 기본 포커스 제거 */
+  border-color: #4a1d5d; /* 포커스 시 테두리 색상 */
+  box-shadow: 0 0 6px rgba(126, 62, 153, 0.5); /* 포커스 효과 추가 */
 }
 
 .inputGroup {
