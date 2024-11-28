@@ -1,0 +1,37 @@
+[
+  {
+    "id": "4379eeb1-885d-45e5-8bb9-79afe3ce01cd",
+    "date": "2024-11-28",
+    "item": "12",
+    "amount": 12,
+    "type": "income"
+  },
+  {
+    "id": "b013a406-a3d8-482e-ae92-0c27271b058b",
+    "date": "2024-10-21",
+    "item": "56",
+    "amount": 87,
+    "type": "income"
+  },
+  {
+    "id": "61189c95-6bcd-4bf9-be44-c68392079ece",
+    "date": "2024-10-23",
+    "item": "12",
+    "amount": 45,
+    "type": "income"
+  },
+  {
+    "id": "644ab130-cfd1-4e48-a84a-c0f9301555c7",
+    "date": "2024-10-28",
+    "item": "5",
+    "amount": 5,
+    "type": "expense"
+  },
+  {
+    "id": "e3bf8a13-13fb-4b71-878b-d19d6f623996",
+    "date": "2024-10-24",
+    "item": "5",
+    "amount": 5000,
+    "type": "expense"
+  }
+]
