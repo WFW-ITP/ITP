@@ -6,7 +6,7 @@
 Node.js의 기본 패키지 관리자
 프로젝트의 의존성을 관리하며, 필요한 패키지를 설치하고 업데이트하는 데 사용됨
 
-# 패키지 설치 - 아래 파일을 설치한 다음, cmd 창1에는 node server.js를, 창2에는 npm start를 입력합니다.
+# 패키지 설치 - 아래 패키지들을 설치한 뒤, cmd 창1에는 node server.js를, 창2에는 npm start를 입력합니다.
 
 ### `npm install express`
 서버 기능을 제공하는 Node.js 웹 프레임워크
