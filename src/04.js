@@ -8,7 +8,7 @@ function App() {
       {/* 추천 페이지 */}
       <div>
         <h1>금융 공부</h1>
-        <h5>원하는 주제를 클릭하세요!</h5>
+        <h5>더 알아보고 싶은 주제를 선택하세요!</h5>
 
         {/* 버튼 그룹 */}
         <div className="button-group">
