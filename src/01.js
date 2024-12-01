@@ -48,7 +48,7 @@ function App() {
     }
 
     const newTransaction = {
-      date: date.toISOString().split("T")[0],
+      date: date.toLocaleDateString("ko-KR"),
       item,
       amount: parseInt(amount, 10),
       type,
